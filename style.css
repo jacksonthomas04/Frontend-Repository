@@ -1,150 +1,87 @@
-/* This would be used if I wanted to overide everything
-*{
-	margin: 0;
-	padding: 0;
-}
-*/
-
 body{
-	background-color: #f4f4f4;
-	color: #555555;
-
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	font-weight: normal;
-
-	line-height: 1.6em;
+	background-color: salmon;
+	color: floralwhite ;
+	font-family: Helvetica, sans-serif, Arial;
+	font-size: 16px;
+	line-height: 1.6 em;
 	margin: 0;
 }
 
-a{
-	text-decoration: none;
-	color: powderblue;
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
 }
 
-a:hover{
-	color: lightseagreen;
+#main-header{
+	background-color:salmon;
+	color: cornflowerblue ;
 }
 
-a:active{
-	color: blueviolet;
+#nav{
+	background-color: salmon ;
+	color: floralwhite;
 }
 
-	.container{ width: 80%; margin: auto; }
+#nav ul{
+	padding: 0;
+	list-style: none ;
+}
 
-	.button{
-		background-color: #333;
-		color: #fff;
-		padding: 10px 15px ;
-		border: none;
+#nav li{
+	display: inline;
+	list-style: square;
+}
+
+#nav a{
+	color: floralwhite ;
+	text-decoration: none ;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+#showcase{
+	background-image: url('../images/showcase.jpg');
+	background-position: center right;
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#showcase h1{
+	color: floralwhite;
+	font-size: 50px;
+	line-height: 1.6em;
+	padding-top: 30px;
+}
+
+#main{
+	float: left;
+	width: 70%;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float: right;
+	width: 30%;
+	background-color: cornflowerblue;
+	color: floralwhite ;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#main-footer{
+	background-color: floralwhite;
+	color: cornflowerblue ;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+
+@media(max-width: 600px){
+	#main{
+		width: 100%%;
+		float: none;
 	}
-
-	.button:hover{
-		background-color: darkseagreen;
-		color: #fff;
-	}
-
-	.clr{
-		clear: both;
-	}
-
-	.box-1{
-		background-color: #333;
-		color: #fff;
-
-		/* Just messing around
-		border-right: 5px darkred solid;
-		border-left: 5px darkred solid;
-		border-bottom: 5px darkred solid;
-		border-top: 5px darkred solid;
-		border-bottom-width: 10px;
-		border-top-style: dotted;
-		*/
- 
-		border: 5px darkseagreen solid;
-
-		padding: 20px;
-
-		margin: 20px 0px;
-	}
-
-	.box-1 h1{
-		font-family: Tahoma;
-		font-weight: 800;
-		font-style: italic;
-		text-decoration: underline;
-		text-transform: uppercase;
-		letter-spacing: 0.2em;
-		word-spacing: 1em;
-
-	}
-
-	.box-2{
-		border: 3px #ccc dotted;
-		padding: 20 px;
-		margin: 20 px 0;
-	}
-
-	.categories{
-		border: 1px #ccc solid;
-		padding: 20px;
-		border-radius: 5px;
-
-	}
-
-	.categories h2{ 
-	text-align: center; }
-
-	.categories ul{
-		padding: 0;
-		padding-left: 20px;
-		list-style: square;
-
-	}
-
-	.categories li{
-		padding-bottom: 6px;
-		border-bottom: dotted; 1px #333
-		list-style-image: url('../images/check.png');
-	}
-
-	.my-form{
-		padding: 20px;
-	}
-
-	.my-form  .form-group{
-		padding-bottom: 15px;
-	}
-
-	.my-form label{
-		display: block;
-	}
-
-	.my-form input[type="text"], .my-form textarea{
-		padding: 8px;
-		width: 100%;
-	}
-
-
-	.block{
-		float: left;
-		width: 33.3%;
-		border: 1px solid #ccc ;
-		padding: 10px;
-		box-sizing: border-box;
-	}
-
-	#main-block{
-		float: left;
-		width: 70%;
-		padding:15px ;
-		box-sizing: border-box;
-	}
-	#sidebar{
-		float: right;
-		width: 30%;
-		background-color: #333;
-		color: #fff;
-		padding:15px ;
-		box-sizing: border-box;
-	}
+}
