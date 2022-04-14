@@ -1,87 +1,52 @@
-body{
-	background-color: salmon;
-	color: floralwhite ;
-	font-family: Helvetica, sans-serif, Arial;
-	font-size: 16px;
-	line-height: 1.6 em;
-	margin: 0;
+.container{
+    border: 4px solid lightgray;
+    padding: 24px;
+}
+
+.title{
+    border: 2px solid ;
+    width: 64%;
+    height: 24px;
+    margin-bottom: 24px;
+    margin-left: 18%;
+    margin-right:;
+}
+.box{
+    border:4px solid lightgray;
+    width: 100px;
+    height: 100px;
+    }
+
+.box-wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 24px;
+}
+
+.boxwrap2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 24px;
+}
+
+/* Weblayout 1 
+.box-small{
+    width: 50px;
+    height: 50px;
+    margin-left:24px ;
+}
+
+.flexsmall{
+    display: flex;
+    align-items: center;
 }
 
 .container{
-	width: 80%;
-	margin: auto;
-	overflow: hidden;
+    border: 4px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
 }
-
-#main-header{
-	background-color:salmon;
-	color: cornflowerblue ;
-}
-
-#nav{
-	background-color: salmon ;
-	color: floralwhite;
-}
-
-#nav ul{
-	padding: 0;
-	list-style: none ;
-}
-
-#nav li{
-	display: inline;
-	list-style: square;
-}
-
-#nav a{
-	color: floralwhite ;
-	text-decoration: none ;
-	font-size: 18px;
-	padding-right: 15px;
-}
-
-#showcase{
-	background-image: url('../images/showcase.jpg');
-	background-position: center right;
-	min-height: 300px;
-	margin-bottom: 30px;
-	text-align: center;
-}
-
-#showcase h1{
-	color: floralwhite;
-	font-size: 50px;
-	line-height: 1.6em;
-	padding-top: 30px;
-}
-
-#main{
-	float: left;
-	width: 70%;
-	padding: 0 30px;
-	box-sizing: border-box;
-}
-
-#sidebar{
-	float: right;
-	width: 30%;
-	background-color: cornflowerblue;
-	color: floralwhite ;
-	padding: 10px;
-	box-sizing: border-box;
-}
-
-#main-footer{
-	background-color: floralwhite;
-	color: cornflowerblue ;
-	text-align: center;
-	padding: 20px;
-	margin-top: 40px;
-}
-
-@media(max-width: 600px){
-	#main{
-		width: 100%%;
-		float: none;
-	}
-}
+*/
