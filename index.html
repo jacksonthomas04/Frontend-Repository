@@ -4,72 +4,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/style.css">
+    <title>Shinto Gaming Webpage</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="box-wrapper">
-                    <div class="box box-small"></div>
-                    <div class="box box-small"></div>
-                <div class="tiny-wrapper">
-                    <div class="box box-tiny"></div>
-                    <div class="box box-tiny"></div>
-                    <div class="box box-tiny"></div>
+    <section>
+        <nav>
+            <img src="./assets/sword.png" class="wordlogo">
+                <ul>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#discord">Discord</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+        </nav>
+            <header>
+                <div class="row">
+                    <div>
+                        <h1>Shinto Gaming</h1>
+                        <p class="subheader">The Age of Shinto is here! Tune in now to see who's live.</p>
+                        <button>Tune in</button>
+                    </div>
+                        <figure>
+                            <img src="./assets/ShintoLogo.png">
+                        </figure>
                 </div>
-            </div>
-                <div class="box box-large"></div>  
-        </div>
-    </div>
-</body>
+            </header>
+    </section>
 
-
-
-<!--Common Weblayout3 
-<body>
-    <div class="container">
-        
-        <div class="box-wrapper">
-            <div class="box box-small"></div>
-            <div class="box box-small"></div>
-            <div class="box box-small"></div>
-        </div>
-            <div class="box box-large"></div>  
-    </div>
--->
-</body>
-
-<!--Common Weblayout 1  
-<body>
-    <div class="container">
-        <div class="box"> </div>
-        <div class="flexsmall">
-            <div class="box box-small"> </div>
-            <div class="box box-small"> </div>
-            <div class="box box-small"> </div>
-        </div>
-    </div>
-    -->
-</body> 
-
-<!--Common Weblayout 2
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="title"></div>
-                <div class="box-wrapper">
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
+    <main>
+        <section id="about">
+            <h2>About Shinto Gaming</h2>
+                <div class="row">
+                    <div class="section__des">
+                        <div class="sec_des_wrap">
+                                <p class="sec__des_para">
+                                    Shinto Gaming has set out to accomplish heights never seen before. We pride ourselves on offering a safe but competitive environment for not just our members but our fans as well. 
+                                </p>
+                                <p class="sec__des_para">
+                                    With tons of streamers, we strive to facilitate interactions that will benefit both our streamers and the community. We also have our sights set on entering multiple different esports demographics. If this sounds like something you may be interested in, please use the contact tab to email us, or join our discord advertised below. 
+                                </p>
+                        </div>
+                            <figure class="about__img">
+                                <img src="./assets/about.jpg">
+                            </figure>
+                    </div>
                 </div>
-        </div>
-    </div>
--->
-</body>
+        </section>
+        <section id="discord">
+                <h2>Shinto Gaming Discord</h2>
+                    <div class="row">
+                        <div class="section__des">
+                            <figure class="about__img">
+                                <img src="./assets/discord.png" alt="Discord">
+                            </figure>
+                            <div class="sec_des_wrap">
+                                <p class="sec__des_para">
+                                    To stay up to date on all things Shinto, we recommend you join our community discord. Be sure to claim your roles, and after that feel free to interact with the community. If you have any questions, please ask for help and a moderator will answer you shortly.
+                                </p>
+                                <p class="sec__des_para">
+                                    If you find any issues with our website, please contact us with the information below.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        <section id="contact">
+            <h2>Contact</h2>
+                <div class="row">
+                    <form action="">
+                        <span>Email</span>
+                        <input type="email" placeholder="jane@example.com">
+                        <span>Message</span>
+                        <textarea type="text" placeholder="Ree45xSG is known to be the best hooper around"></textarea>
+                        <button>Contact Us!</button>
+                    </form>
+                </div>
+        </section>
 
+    </main>
+
+    <footer>
+        <img class="footer-logo" src="./assets/sword.png">
+        <div class="footer-links">
+            <a class="footer-link" href="#about">About</a>
+            <a class="footer-link" href="#discord">Discord</a>
+            <a class="footer-link" href="#contact">Contact</a>
+            <a class="footer-link" href="">Streamers</a>
+        </div>
+        <p>Copyright Shinto Gaming</p>
+</body>
 </html>
