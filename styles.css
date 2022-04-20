@@ -8,7 +8,7 @@
 }
 
 h1, h2, h3, h4, h5, h6, span{
-    color: goldenrod;
+    color: rgb(29, 28, 28);
     text-align: center;
     line-height: 1.25;
 }
@@ -33,6 +33,10 @@ li{
     flex: 1;
 }
 
+.container {
+    padding: 50px 0;
+}
+
 .row{
     width: 100%;
     max-width: 800px;
@@ -42,6 +46,16 @@ li{
 .text-goldenrod{
     color: goldenrod;
 }
+
+section:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.section__title{
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
 /* Nav Bar */
 
 nav{
@@ -145,4 +159,50 @@ nav{
 
 .about-me__img{
     width: 100%;
+}
+
+/* Tech Stack */
+
+.language__img {
+    width: 100%;
+    max-width: 100px;
+    transition: all 300ms;
+}
+
+.language:hover .language__img{
+    filter: brightness(80%);
+    opacity: 0.86;
+    transform: scale(0.9);
+}
+
+.language{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.language__img--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 16px;
+}
+
+.language__list{
+    display: flex;
+    width: 100%;
+}
+
+.language__name{
+    position: absolute;
+    bottom: 0;
+    transform: scale(0);
+    font-size: 16px;
+    opacity: 0;
+}
+
+.language:hover .language__name {
+    transform: scale(1);
+    opacity: 1;
 }
