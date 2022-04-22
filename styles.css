@@ -22,6 +22,11 @@ p{
     font-size: 16px;
 }
 
+a{
+    text-decoration: none;
+}
+
+
 li{
     list-style-type: none;
 }
@@ -289,4 +294,32 @@ nav{
 .project__description--link {
     text-align: left;
     color: aliceblue;
+}
+
+/* Footer  */
+
+footer{
+    background-color: #242424;
+}
+
+.footer__logo{
+    margin-bottom: 0;
+}
+
+.footer__row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 0;
+}
+
+.footer__logo--img{
+    width: 200px;
+    height: 200px;
+}
+
+.footer__social--link{
+    color: aliceblue;
+    font-size: 24px;
 }
