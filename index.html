@@ -1,157 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jackson Thomas</title>
+    <title>EGCollections</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
-    <section id="about-me">
+    <section id="landing">
         <nav>
-            <div class="personal__logo">Jackson Thomas</div>
-            <ul class="nav__link--list">
-                <li class="nav__small">
-                    <a href="" class="nav__link--anchor
-                    link__hover-effect
-                    link__hover-effect--black">Languages</a>
-                </li>
-                <li class="nav__small">
-                    <a href="" class="nav__link--anchor
-                    link__hover-effect
-                    link__hover-effect--black">Projects</a>
-                </li>
-                <li class="nav__small">
-                    <a href="" class="nav__link--anchor
-                    nav__link--anchor-primary">Contact</a>
-                </li>
-            </ul>
-        </nav>
-
-        <div class=" flex flex-1">
-            <div class="about-me__info row">
-                <div class="about-me__info--container">
-                    <figure class="about-me__picture--mask">
-                        <img src="./assets/Profilepic.png" class="about-me__picture" alt="Picture of Me!">
-                    </figure>
-                    <h1 class="about-me__info--title">
-                        Hey! I'm <span class="text-goldenrod">Jackson Bennett Thomas</span>
-                    </h1>
-                    <p class="about-me__info--para">
-                        I'm a <strong class="text-goldenrod">frontend web developer</strong> who is eager to develop my
-                        skills to the next level. Throughout my journey I hope to meet and work alongside wonderful
-                        people with similar interests of changing our world for the better.
-                    </p>
-                    <div class="about-me__links">
-                        <a href="" class="about-me__link">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        <a href="" class="about-me__link">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="" class="about-me__link">
-                            <i class="far fa-envelope"></i>
-                        </a>
-                        <a href="" class="about-me__link">
-                            <i class="fas fa-file-pdf"></i>
-                        </a>
-                    </div>
-                </div>
-                <figure class="about-me__img--container">
-                    <img src="./assets/undraw_Web_developer_re_h7ie.png" class="about-me__img">
-                </figure>
-            </div>
-        </div>
-    </section>
-
-    <section id="languages">
-        <div class="container">
-            <div class="row">
-                <h1 class="section__title">This is my current <span class="text-goldenrod">technology stack</span></h1>
-                <div class="language__list">
-                    <div class="language">
-                        <figure class="language__img--wrapper">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
-                                alt="" class="language__img">
-                        </figure>
-                        <span class="language__name">HTML</span>
-                    </div>
-                    <div class="language">
-                        <figure class="language__img--wrapper">
-                            <img src="./assets/css.png" alt="" class="language__img">
-                        </figure>
-                        <span class="language__name">CSS</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-
-    <section id="projects">
-        <div class="container">
-            <div class="row">
-                <h1 class="section__title">Here are a few of my <span class="text-goldenrod">projects</span></h1>
-                <ul class="project__list">
-                    <li class="project">
-                        <div class="project__wrapper">
-                            <figure>
-                                <img src="./assets/sgproject.png" class="project__img"
-                                    alt="shinto gaming subscription project">
-                                </figure>
-                                <div class="project__description">
-                                    <h3 class="project__description--title">Shinto Gaming Weblayout</h3>
-                                    <h4 class="project__description--sub-title">
-                                        HTML, CSS
-                                    </h4>
-                                    <p class="project__description--para">
-                                        In this project I developed a mock-up draft for Shinto Gaming. Eventually, I hope to
-                                        polish this design up and make it useable for my organization.
-                                    </p>
-                                    <div class="project__description--links">
-                                        <a href="https://github.com/jacksonthomas04" target="_blank"
-                                            class="project__description--link">
-                                            <i class="fab fa-github"></i>
-                                        </a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
+            <div class="nav__container">
+                <img class= "logo" src="./assets/logo.png" alt="">
+                <ul class="nav__links">
+                    <li><a href="#" class="nav__link">Home</a></li>
+                    <li><a href="#" class="nav__link">Contact</a></li>
+                    <li><a href="#" class="nav__link nav__link--primary">Collection</a></li>
                 </ul>
             </div>
-        </div>
-    </section>
-    <footer>
-        <div class="row footer__row">
-            <a href="#" class="footer__anchor">
-                <figure class="footer__logo">
-                    <img src="./assets/JTLOGO.png" class="footer__logo--img" alt="">
+        </nav>
+        <header>
+            <div class="header__container">
+                <div class="header__description">
+                    <h1>USA's most popular online video game collection platform</h1>
+                    <h2>Find any video game you desire with our <span class="brown">Collection</span></h2>
+                    <button class="btn">Browse Games</button>
+                </div>
+                <figure class="header__image--wrapper">
+                    <img src="./assets/undrawgaming3.png" class="img3">
                 </figure>
-            </a>
-            <div class="footer__social--list">
-                <a href="https://github.com/jacksonthomas04" class="
-                footer__social--link
-                link__hover-effect
-                link__hover-effect--white" target="_blank">Github</a>
-                <a href="https://google.com" class="
-                footer__social--link
-                link__hover-effect
-                link__hover-effect--white" target="_blank">LinkedIn</a>
-                <a href="mailto:email@email.com" class="
-                footer__social--link
-                link__hover-effect
-                link__hover-effect--white" target="_blank">Email</a>
-                <a href=donthaveoneyet class="
-                footer__social--link
-                link__hover-effect
-                link__hover-effect--white" target="_blank">Resume</a>
             </div>
-        </div>
-    </footer>
-</body>
+        </header>
+    </section>
 
+    <main>
+        <section id="highlights">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section__title">
+                        Why choose <span class="brown">EGCollections</span>
+                    </h2>
+                    <div class="highlight__wrapper">
+                        <div class="highlight">
+                            <div class="highlight__img">
+                                <i class="fas fa-bolt"></i>
+                                </div>
+                                <h3 class="highlight__subtitle">
+                                    Easy and Quick
+                                </h3>
+                                <p class="highlight__para">
+                                    Get access to the game you purchased within days.
+                                </p>
+                            </div>
+                            <div class="highlight">
+                                <div class="highlight__img">
+                                    <i class="fas fa-bolt"></i>
+                                    </div>
+                                    <h3 class="highlight__subtitle">
+                                        20,000+ Games
+                                    </h3>
+                                    <p class="highlight__para">
+                                        We offer games from all your favorite categories for all kinds of platforms.
+                                    </p>
+                                </div>
+                                <div class="highlight">
+                                    <div class="highlight__img">
+                                        <i class="fas fa-bolt"></i>
+                                        </div>
+                                        <h3 class="highlight__subtitle">
+                                            Afforable
+                                        </h3>
+                                        <p class="highlight__para">
+                                            Have access to popular games for as little as $10.
+                                        </p>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section___title">
+                        Featured <span class="brown">Games</span>
+                    </h2>
+                    <div class="games">
+                        <div class="game">
+                            <figure class="game__img--wrapper">
+                                <img class="game__img" src="./assets/2k22.png">
+                            </figure>
+                            <div class="game__title">
+                                NBA 2K22
+                            </div>
+                            <div class="game__ratings">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="game__price">
+                                <span class="game__price--normal">$59.95</span> $19.95
+                            </div>
+                        </div>
+                        <div class="game">
+                            <figure class="game__img--wrapper">
+                                <img class="game__img" src="./assets/ark3.jpg">
+                            </figure>
+                            <div class="game__title">
+                                Ark Survival Evolved
+                            </div>
+                            <div class="game__ratings">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="game__price">
+                                <span class="game__price--normal">$59.95</span> $19.95
+                            </div>
+                        </div>
+                        <div class="game">
+                            <figure class="game__img--wrapper">
+                                <img class="game__img" src="./assets/mw2.png">
+                            </figure>
+                            <div class="game__title">
+                                Call Of Duty Modern Warfare
+                            </div>
+                            <div class="game__ratings">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="game__price">
+                                <span class="game__price--normal">$59.95</span> $19.95
+                            </div>
+                        </div>
+                        <div class="game">
+                            <figure class="game__img--wrapper">
+                                <img class="game__img" src="./assets/todelete.jpg">
+                            </figure>
+                            <div class="game__title">
+                                Grand Theft Auto 5
+                            </div>
+                            <div class="game__ratings">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="game__price">
+                                <span class="game__price--normal">$59.95</span> $19.95
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="recent">
+            <div class="container">
+                <div class="row">
+
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
 </html>
