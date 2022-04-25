@@ -230,13 +230,14 @@ button:active {
 }
 
 .game__img {
-    max-height: 380px;
+    height: 250px;
+    width: 200px;
     cursor: no-drop;
 }
 
 .game__img--wrapper {
     margin-bottom: 8px;
-    border-radius: 4px;
+    border-radius: 8px;
     overflow: hidden;
     display: flex;
 }
@@ -263,5 +264,5 @@ button:active {
 .game__price--normal {
     text-decoration: line-through;
     padding-right: 6px;
-    color: #bfbfbf;
+    color: #d3c8c8;
 }
