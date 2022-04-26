@@ -222,6 +222,7 @@ button:active {
 
 .games {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .game {
@@ -230,14 +231,13 @@ button:active {
 }
 
 .game__img {
-    height: 250px;
-    width: 200px;
+    max-height: 380px;
     cursor: no-drop;
 }
 
 .game__img--wrapper {
     margin-bottom: 8px;
-    border-radius: 8px;
+    border-radius: 4px;
     overflow: hidden;
     display: flex;
 }
