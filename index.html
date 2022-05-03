@@ -4,364 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EGCollections</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>North Oconee High School FFA</title>
 </head>
 <body>
     <section id="landing">
         <nav>
-            <div class="nav__container">
-                <img class= "logo" src="./assets/logo.png" alt="">
+            <div class="row">
+                <img class="ffalogo" src="assests/NOHSNOCOPY.png" alt="">
                 <ul class="nav__links">
-                    <li><a href="#" class="nav__link">Home</a></li>
-                    <li><a href="#" class="nav__link">Contact</a></li>
-                    <li><a href="#" class="nav__link nav__link--primary">Collection</a></li>
+                    <li><a href="#" class="nav__link">About</a></li>
+                    <li><a href="#" class="nav__link">Blog</a></li>
+                    <li><a href="#" class="nav__link">Upcoming Events</a></li>
+                    <li><a href="#" class="nav__link">Contact Us</a></li>
                 </ul>
-            <button class="btn__menu" onclick="openMenu()">
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="menu__backdrop">
-                <button class="btn__menu btn__menu--close" onclick="closeMenu()">
-                    <i class="fas fa-times"></i>
-                </button>
-                <ul class="menu__links">
-                    <li class="menu__list">
-                        <a href="#" class="menu__link" onclick="closeMenu()">Home</a>
-                    </li>
-                    <li class="menu__list">
-                        <a href="#" class="menu__link" onclick="closeMenu()">Games</a>
-                    </li>
-                    <li class="menu__list">
-                        <a href="#" class="menu__link no-cursor" onclick="closeMenu()">Contact</a>
-                    </li>
+                <ul>
+                    <li><a href="#" class="nav__link">Login</a></li>
+                    <li><a href="#" class="nav__link nav__link--border">Sign Up</a></li>
                 </ul>
-            </div>
             </div>
         </nav>
         <header>
-            <div class="header__container">
-                <div class="header__description">
-                    <h1>USA's most popular online video game collection platform</h1>
-                    <h2>Find any video game you desire with our <span class="brown">Collection</span></h2>
-                    <button class="btn">Browse Games</button>
+            <div class="row">
+                <div class="two__columns--container">
+                    <div class="two__columns--two">
+                        <div class="left__column">
+                            <h1 class="two__column--heading">North Oconee FFA is here <span class="navy">for you</span></h1>
+                            <p class="two__column--p">We pride ourselves on being one of the most inclusive clubs that North Oconee offers. We are not just a farming club. It is our goal to develop our members <span class="navy">leadership, communication, and life skills.</span></p>
+                            <div class="email__header">
+                                <input type="text" placeholder="Your E-mail Address" class="text__header--place">
+                                <button class="learn__more">Learn More</button>
+                            </div>
+                        </div>
+                        <div class="right__column">
+
+                        </div>
+                    </div>
                 </div>
-                <figure class="header__image--wrapper">
-                    <img src="./assets/undrawgaming3.png" class="img3">
-                </figure>
             </div>
         </header>
     </section>
-
-    <main>
-        <section id="highlights">
-            <div class="container">
-                <div class="row">
-                    <h2 class="section__title">
-                        Why choose <span class="brown">EGCollections</span>
-                    </h2>
-                    <div class="highlight__wrapper">
-                        <div class="highlight">
-                            <div class="highlight__img">
-                                <i class="fas fa-bolt"></i>
-                                </div>
-                                <h3 class="highlight__subtitle">
-                                    Easy and Quick
-                                </h3>
-                                <p class="highlight__para">
-                                    Get access to the game you purchased within days.
-                                </p>
-                            </div>
-                            <div class="highlight">
-                                <div class="highlight__img">
-                                    <i class="fas fa-bolt"></i>
-                                    </div>
-                                    <h3 class="highlight__subtitle">
-                                        20,000+ Games
-                                    </h3>
-                                    <p class="highlight__para">
-                                        We offer games from all your favorite categories for all kinds of platforms.
-                                    </p>
-                                </div>
-                                <div class="highlight">
-                                    <div class="highlight__img">
-                                        <i class="fas fa-bolt"></i>
-                                        </div>
-                                        <h3 class="highlight__subtitle">
-                                            Afforable
-                                        </h3>
-                                        <p class="highlight__para">
-                                            Have access to popular games for as little as $10.
-                                        </p>
-                                    </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="features">
-            <div class="container">
-                <div class="row">
-                    <h2 class="section___title">
-                        Featured <span class="brown">Games</span>
-                    </h2>
-                    <div class="games">
-                        <div class="game">
-                            <figure class="game__img--wrapper">
-                                <img class="game__img" src="./assets/2k22.png">
-                            </figure>
-                            <div class="game__title">
-                                NBA 2K22
-                            </div>
-                            <div class="game__ratings">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                            </div>
-                            <div class="game__price">
-                                <span class="game__price--normal">$59.95</span> $19.95
-                            </div>
-                        </div>
-                        <div class="game">
-                            <figure class="game__img--wrapper">
-                                <img class="game__img" src="./assets/arkuse.png">
-                            </figure>
-                            <div class="game__title">
-                                Ark Survival Evolved
-                            </div>
-                            <div class="game__ratings">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                            <div class="game__price">
-                                <span class="game__price--normal">$29.95</span> $19.95
-                            </div>
-                        </div>
-                        <div class="game">
-                            <figure class="game__img--wrapper">
-                                <img class="game__img" src="./assets/mwuse.png">
-                            </figure>
-                            <div class="game__title">
-                                Call Of Duty Modern Warfare
-                            </div>
-                            <div class="game__ratings">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                            </div>
-                            <div class="game__price">
-                                <span class="game__price--normal">$59.95</span> $29.95
-                            </div>
-                        </div>
-                        <div class="game">
-                            <figure class="game__img--wrapper">
-                                <img class="game__img" src="./assets/gtause.png">
-                            </figure>
-                            <div class="game__title">
-                                Grand Theft Auto 5
-                            </div>
-                            <div class="game__ratings">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                            <div class="game__price">
-                                <span class="game__price--normal">$59.95</span> $49.95
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="recent">
-            <div class="container">
-                <div class="row">
-                    <h2 class="section__title">
-                        Blast From the <span class="brown">Past</span>
-                    </h2>
-                    <div class="games">
-                        <div class="game">
-                            <figure class="game__img--wrapper">
-                                <img class="game__img" src="./assets/starwarsuse.png">
-                            </figure>
-                            <div class="game__title">
-                                Star Wars Knights of the Old Republic
-                            </div>
-                            <div class="game__ratings">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                            </div>
-                            <div class="game__price">
-                                <span class="game__price--normal">$14.95</span> $9.95
-                            </div>
-                        </div>
-                        <div class="game">
-                            <figure class="game__img--wrapper">
-                                <img class="game__img" src="./assets/gearsuse.png">
-                            </figure>
-                            <div class="game__title">
-                                Gears of War
-                            </div>
-                            <div class="game__ratings">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                            <div class="game__price">
-                                <span class="game__price--normal">$19.95</span> $11.95
-                            </div>
-                        </div>
-                        <div class="game">
-                            <figure class="game__img--wrapper">
-                                <img class="game__img" src="./assets/uause.png">
-                            </figure>
-                            <div class="game__title">
-                                Marvel Ultimate Alliance
-                            </div>
-                            <div class="game__ratings">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                            </div>
-                            <div class="game__price">
-                                <span class="game__price--normal">$22.95</span> $14.95
-                            </div>
-                        </div>
-                        <div class="game">
-                            <figure class="game__img--wrapper">
-                                <img class="game__img" src="./assets/halouse.png">
-                            </figure>
-                            <div class="game__title">
-                                Halo 2
-                            </div>
-                            <div class="game__ratings">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                            <div class="game__price">
-                                <span class="game__price--normal">$29.95</span> $15.95
-                            </div>
-                        </div>
-                        <div class="game">
-                            <figure class="game__img--wrapper">
-                                <img class="game__img" src="./assets/commouse.png">
-                            </figure>
-                            <div class="game__title">
-                                Renegade 
-                            </div>
-                            <div class="game__ratings">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                            <div class="game__price">
-                                <span class="game__price--normal">$14.95</span> $10.95
-                            </div>
-                        </div>
-                        <div class="game">
-                            <figure class="game__img--wrapper">
-                                <img class="game__img" src="./assets/bladeuse.png">
-                            </figure>
-                            <div class="game__title">
-                                Onimusha Blade Warriors
-                            </div>
-                            <div class="game__ratings">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                            </div>
-                            <div class="game__price">
-                                <span class="game__price--normal">$19.95</span> $14.95
-                            </div>
-                        </div>
-                        <div class="game">
-                            <figure class="game__img--wrapper">
-                                <img class="game__img" src="./assets/donkeyuse.png">
-                            </figure>
-                            <div class="game__title">
-                                Donkey Kong Barrel Blast
-                            </div>
-                            <div class="game__ratings">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                            <div class="game__price">
-                                <span class="game__price--normal">$23.95</span> $16.95
-                            </div>
-                        </div>
-                        <div class="game">
-                            <figure class="game__img--wrapper">
-                                <img class="game__img" src="./assets/transformuse.png">
-                            </figure>
-                            <div class="game__title">
-                                Transformers The Game
-                            </div>
-                            <div class="game__ratings">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                            </div>
-                            <div class="game__price">
-                                <span class="game__price--normal">$29.95</span> $24.95
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="explore__more">
-            <div class="container">
-                <div class="row">
-                    <h2 class="moretext">Explore More <span class="brown">Games</span></h1>
-                </div>
-                <a href="#features">
-                <div class="browsebtn">
-                    <button clas class="btn">Browse Games</button>
-                </div>
-                </a>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="contaier">
-            <div class="row row__column">
-                
-                <div class="footer__list">
-                    <a href="" class="footer__link">Home</a>
-                    <a href="" class="footer__link no-cursor">About</a>
-                    <a href="" class="footer__link">Games</a>
-                    <a href="" class="footer__link no-cursor">Contact</a>
-                </div>
-                <div class="footer__copyright">Copyright &copy; 2022 EGCollections</div>
-            </div>
-        </div>
-    </footer>
 </body>
 </html>
