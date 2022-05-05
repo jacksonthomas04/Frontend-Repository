@@ -71,10 +71,22 @@ li {
 .two__columns--container {
     position: relative;
     padding: 32px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.two__columns--two {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
 }
 
 .left__column {
     width: 40%;
+    text-align: left;
     display: flex;
     flex-direction: column;
     padding: 16px;
@@ -118,4 +130,64 @@ li {
 
 .learn__more:hover {
     color: gold;
+}
+
+.right__column {
+    width: 60%;
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+}
+
+.officer__img {
+    width: 520px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Officers */
+
+
+.container {
+    padding: 250px 0;
+}
+
+.row--officers {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 24px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.officers--title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.officers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.officer {
+    display: flex;
+    width: 25%;
+    padding: 10px 0;
+}
+
+.officer__description {
+    display: flex;
+    flex-direction: column;
+}
+
+.about__officer {
+    padding: 5px 0;
+    font-size: 15px;
+    width: 100px;
 }
