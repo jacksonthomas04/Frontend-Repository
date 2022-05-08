@@ -156,11 +156,12 @@ li {
 .row--officers {
     width: 100%;
     max-width: 1200px;
-    padding: 0 24px;
+    padding: 24px 24px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
 }
 
 .officers--title {
@@ -190,129 +191,51 @@ li {
     font-weight: bold;
 }
 
-/* Scrap 
+.brooke__pic {
+    max-width: 280px;
+}
 
- <section>
-        <div class="container">
-            <div class="intro__officers">
-                <div class="officers--title">
-                    <h1>2021-22 FFA Officer Team</h1>
-                </div>
-            <div class="row--officers">
-                <div class="officers">
-                    <div class="officer">
-                        <div class="officer__description">
-                            <h3>Cody Gerard</h3>
-                            <p class="about__officer">
-                                Stationed by the Rising Sun
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="officers">
-                    <div class="officer">
-                        <div class="officer__description">
-                            <h3>Brooke Dumay</h3>
-                            <p class="about__officer">
-                                Stationed by the Plow
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="officers">
-                    <div class="officer">
-                        <div class="officer__description">
-                            <h3>Taylor Dumay</h3>
-                            <p class="about__officer">
-                                Stationed by the Ear of Corn
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="officers">
-                    <div class="officer">
-                        <div class="officer__description">
-                            <h3>Erick Digby</h3>
-                            <p class="about__officer">
-                                Stationed by the Emblem of Washington
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row--officers">
-                <div class="officers">
-                    <div class="officer">
-                        <div class="officer__description">
-                            <h3>Peyton Cooper</h3>
-                            <p class="about__officer">
-                                Stationed by the Flag
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="officers">
-                    <div class="officer">
-                        <div class="officer__description">
-                            <h3>Mary Clair Lill</h3>
-                            <p class="about__officer">
-                                Stationed by the Door
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="officers">
-                    <div class="officer">
-                        <div class="officer__description">
-                            <h3>John Harris</h3>
-                            <p class="about__officer">
-                                Stationed by the Bible
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="officers">
-                    <div class="officer">
-                        <div class="officer__description">
-                            <h3>Tim Griffith</h3>
-                            <p class="about__officer">
-                                Stationed by the Owl
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+/* Review */
 
-.officers--title {
+.container__review {
+    padding: 80px 0;
+}
+
+.review__title {
     display: flex;
     text-align: center;
     justify-content: center;
     padding: 50px;
+    color: navy;
+    font-weight: bold;
 }
 
-.officers {
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.photos {
     display: flex;
     flex-wrap: wrap;
 }
 
-.officer {
+.photo {
     display: flex;
-    width: 25%;
-    padding: 10px 0;
+    width: calc(100%/3);
+    padding: 24px 0;
 }
 
-.officer__description {
+.photo__des {
     display: flex;
     flex-direction: column;
 }
 
-.about__officer {
-    padding: 5px 0;
-    font-size: 15px;
-    width: 100px;
+h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-*/
 
